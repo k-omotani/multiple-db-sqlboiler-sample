@@ -1,0 +1,14 @@
+add-global-variants = true
+add-panic-variants = true
+no-tests = true
+output = "db/two"
+pkgname = "model"
+wire = true
+
+[psql]
+  dbname = "admin"
+  host = "localhost"
+  port = 5435
+  user = "admin"
+  pass = "admin"
+  sslmode = "disable"
